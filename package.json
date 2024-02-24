@@ -287,7 +287,7 @@
     "@darkskyapp/eslint-config": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "mocha": "^5.0.5"
   }
 }
