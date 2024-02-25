@@ -54,7 +54,6 @@
     "global-require": "off",
     "max-len": "off",
     "multiline-comment-style": ["error", "separate-lines"],
-    "no-unused-vars": ["error", {"args": "none"}],
-    "node/no-deprecated-api": "error"
+    "no-unused-vars": ["error", {"args": "none"}]
   }
 }
