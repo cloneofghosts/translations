@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v4.0.2
       - run: npm install
       - run: npm ci # or yarn install
+      - run: mocha --reporter dot
       - uses: sibiraj-s/action-eslint@v3.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }} # optional
