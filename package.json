@@ -281,6 +281,7 @@
   },
   "scripts": {
     "test": "eslint . && mocha --reporter dot",
+    "test-fix": "eslint . --fix . && mocha --reporter dot",
     "lint-fix": "eslint . --fix"
   },
   "devDependencies": {
