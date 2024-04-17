@@ -10,7 +10,6 @@
   },
   "plugins": [
     "n",
-    "promise"
   ],
   "extends": "eslint:recommended",
   "rules": {
