@@ -9,8 +9,7 @@
     "node": true
   },
   "plugins": [
-    "n",
-    "promise"
+    "n"
   ],
   "extends": "eslint:recommended",
   "rules": {
@@ -51,8 +50,6 @@
     "semi": ["error", "always"],
     "spaced-comment": ["warn", "always"],
     "strict": ["error", "global"],
-    "global-require": "off",
-    "max-len": "off",
     "multiline-comment-style": ["error", "separate-lines"],
     "no-unused-vars": ["error", {"args": "none"}]
   }
