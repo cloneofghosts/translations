@@ -3,7 +3,6 @@ const nodePlugin = require("eslint-plugin-n")
 module.exports = [
     nodePlugin.configs["flat/recommended-script"],
     {
-        extends: ["eslint:recommended"],
         languageOptions: {
             ecmaVersion: 2024,
             sourceType: "module",
