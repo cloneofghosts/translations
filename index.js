@@ -9,6 +9,6 @@ for(const pathname of fs.readdirSync(path.join(__dirname, "lib/lang"))) {
   if(match) {
     const template = require("./lib/lang/" + pathname);
     Object.freeze(template);
-    exports[match[1]] = new Translation(template);
+    module.exports[match[1]] = new Translation(template);
   }
 }
