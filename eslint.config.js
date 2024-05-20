@@ -1,7 +1,7 @@
-import n from "eslint-plugin-n";
+const nodePlugin = require("eslint-plugin-n")
 
 module.exports = [
-    n.configs["flat/recommended-script"],
+    nodePlugin.configs["flat/recommended-script"],
     {
         languageOptions: {
             ecmaVersion: 2024,
@@ -9,6 +9,7 @@ module.exports = [
         },
         rules: {
             "n/exports-style": ["error", "module.exports"],
+            "n/no-unpublished-require": "off",
             "brace-style": ["error", "stroustrup", {"allowSingleLine": true}],
             "comma-dangle": ["error", "always-multiline"],
             "dot-location": ["error", "object"],
