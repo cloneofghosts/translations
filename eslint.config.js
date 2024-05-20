@@ -52,14 +52,3 @@ module.exports = [
         }
     }
 ]
-
-export default [
-    js.configs.recommended,
-    customConfig,
-    myConfig,
-    {
-        rules: {
-            semi: ["warn", "always"]
-        },
-    }
-];
