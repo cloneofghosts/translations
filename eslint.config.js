@@ -3,21 +3,13 @@ const nodePlugin = require("eslint-plugin-n")
 module.exports = [
     nodePlugin.configs["flat/recommended-script"],
     {
-        rules: {
-            "n/exports-style": ["error", "module.exports"]
-        }
-    }
-]
-
-export default [
-    {
         extends: "eslint:recommended",
         languageOptions: {
             ecmaVersion: 2024,
             sourceType: "module",
         },
         rules: {
-            
+            "n/exports-style": ["error", "module.exports"],
             "brace-style": ["error", "stroustrup", {"allowSingleLine": true}],
             "comma-dangle": ["error", "always-multiline"],
             "dot-location": ["error", "object"],
@@ -57,6 +49,17 @@ export default [
             "strict": ["error", "global"],
             "multiline-comment-style": ["error", "separate-lines"],
             "no-unused-vars": ["error", {"args": "none"}]
+        }
+    }
+]
+
+export default [
+    js.configs.recommended,
+    customConfig,
+    myConfig,
+    {
+        rules: {
+            semi: ["warn", "always"]
         },
     }
 ];
