@@ -1,7 +1,7 @@
-const nodePlugin = require("eslint-plugin-n")
+import n from "eslint-plugin-n";
 
 module.exports = [
-    nodePlugin.configs["flat/recommended-script"],
+    n.configs["flat/recommended-script"],
     {
         languageOptions: {
             ecmaVersion: 2024,
