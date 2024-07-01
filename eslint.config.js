@@ -1,4 +1,4 @@
-import pluginPromise from 'eslint-plugin-promise'
+const pluginPromise = require("eslint-plugin-promise");
 const nodePlugin = require("eslint-plugin-n");
 
 module.exports = [
