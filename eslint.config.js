@@ -7,6 +7,7 @@ module.exports = [
       ecmaVersion: 2024,
       sourceType: "module",
     },
+    ignores: ["/node_modules/*"],
     rules: {
       "n/exports-style": ["error", "module.exports"],
       "n/no-unpublished-require": "off",
