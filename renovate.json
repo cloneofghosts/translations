@@ -13,20 +13,12 @@
       "automerge": true
     },
     {
-      "matchLanguages":[
-        "python"
-      ],
-      "addLabels":[
-        "python"
-      ]
+      "matchLanguages": ["python"],
+      "addLabels": ["python"]
     },
     {
-      "matchLanguages":[
-        "github-actions"
-      ],
-      "addLabels":[
-        "github-actions"
-      ]
+      "matchLanguages": ["github-actions"],
+      "addLabels": ["github-actions"]
     },
   ],
   "platformAutomerge": true
