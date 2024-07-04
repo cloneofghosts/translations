@@ -1,5 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "America/Toronto",
+  "schedule": [ "before 1pm every monday" ]
   "addLabels": ["dependencies"],
   "rangeStrategy": "bump",
   "extends": [
@@ -9,6 +11,23 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
-    }
-  ]
+    },
+    {
+      "matchLanguages":[
+        "python"
+      ],
+      "addlabels":[
+        "python"
+      ]
+    },
+    {
+      "matchLanguages":[
+        "github-actions"
+      ],
+      "addlabels":[
+        "github-actions"
+      ]
+    },
+  ],
+  "platformAutomerge": true
 }
