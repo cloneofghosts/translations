@@ -16,7 +16,7 @@
       "matchLanguages":[
         "python"
       ],
-      "addlabels":[
+      "addLabels":[
         "python"
       ]
     },
@@ -24,7 +24,7 @@
       "matchLanguages":[
         "github-actions"
       ],
-      "addlabels":[
+      "addLabels":[
         "github-actions"
       ]
     },
