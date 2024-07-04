@@ -1,25 +1,42 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "timezone": "America/Toronto",
-  "schedule": [ "before 1pm every monday" ],
-  "addLabels": ["dependencies"],
-  "rangeStrategy": "bump",
-  "extends": [
-    "config:best-practices"
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  timezone: 'America/Toronto',
+  schedule: [
+    'before 1pm on monday',
   ],
-  "packageRules": [
+  addLabels: [
+    'dependencies',
+  ],
+  rangeStrategy: 'bump',
+  extends: [
+    'config:best-practices',
+  ],
+  packageRules: [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      matchUpdateTypes: [
+        'minor',
+        'patch',
+        'pin',
+        'digest',
+      ],
+      automerge: true,
     },
     {
-      "matchLanguages": ["python"],
-      "addLabels": ["python"]
+      matchCategories: [
+        'python',
+      ],
+      addLabels: [
+        'python',
+      ],
     },
     {
-      "matchLanguages": ["github-actions"],
-      "addLabels": ["github-actions"]
+      matchCategories: [
+        'github-actions',
+      ],
+      addLabels: [
+        'github-actions',
+      ],
     },
   ],
-  "platformAutomerge": true
+  platformAutomerge: true,
 }
