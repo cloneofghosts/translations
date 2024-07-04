@@ -3,6 +3,12 @@
   "addLabels": ["dependencies"],
   "rangeStrategy": "bump",
   "extends": [
-    "config:recommended"
+    "config:best-practices"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
   ]
 }
