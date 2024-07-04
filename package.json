@@ -288,6 +288,6 @@
     "eslint": "^9.6.0",
     "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-promise": "^6.4.0",
-    "mocha": "^10.3.0"
+    "mocha": "^10.6.0"
   }
 }
