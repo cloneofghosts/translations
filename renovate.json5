@@ -21,22 +21,6 @@
       ],
       automerge: true,
     },
-    {
-      matchCategories: [
-        'npm',
-      ],
-      addLabels: [
-        'javascript',
-      ],
-    },
-    {
-      matchCategories: [
-        'github-actions',
-      ],
-      addLabels: [
-        'github_actions',
-      ],
-    },
   ],
   platformAutomerge: true,
 }
