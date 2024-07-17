@@ -23,10 +23,10 @@
     },
     {
       matchCategories: [
-        'python',
+        'npm',
       ],
       addLabels: [
-        'python',
+        'javascript',
       ],
     },
     {
@@ -34,7 +34,7 @@
         'github-actions',
       ],
       addLabels: [
-        'github-actions',
+        'github_actions',
       ],
     },
   ],
