@@ -21,22 +21,6 @@
       ],
       automerge: true,
     },
-    {
-      matchCategories: [
-        'python',
-      ],
-      addLabels: [
-        'python',
-      ],
-    },
-    {
-      matchCategories: [
-        'github-actions',
-      ],
-      addLabels: [
-        'github-actions',
-      ],
-    },
   ],
   platformAutomerge: true,
 }
