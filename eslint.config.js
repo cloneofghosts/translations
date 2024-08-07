@@ -1,9 +1,11 @@
 const pluginPromise = require("eslint-plugin-promise");
 const nodePlugin = require("eslint-plugin-n");
+const pluginSecurity = require('eslint-plugin-security');
 
 module.exports = [
   nodePlugin.configs["flat/recommended-script"],
   pluginPromise.configs["flat/recommended"],
+  pluginSecurity.configs["configs/recommended"],
   {
     languageOptions: {
       ecmaVersion: 2024,
